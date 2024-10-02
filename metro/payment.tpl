@@ -226,18 +226,18 @@
   </head>
   <body>
     
-<img src="https://t4.ftcdn.net/jpg/04/06/75/39/360_F_406753914_SFSBhjhp6kbHblNiUFZ1MXHcuEKe7e7P.jpg" style="width: 5cm; height: 2cm;" alt="Resized Image">
+<center><img src="https://t4.ftcdn.net/jpg/04/06/75/39/360_F_406753914_SFSBhjhp6kbHblNiUFZ1MXHcuEKe7e7P.jpg" style="width: 5cm; height: 2cm;" alt="Resized Image"></center>
 
 <body class="bg-background text-foreground flex items-center justify-center min-h-screen">
     <label for="card-number" class="block mb-2 text-muted" style="text-align: left;">Card Number:</label>
     <input type="text" id="card-number" name="card-number" placeholder="1234 5678 9012 3456" class="input-field" />
     <div class="input-group flex justify-between mb-4">
       <div class="expiry-date flex-1 mr-2">
-        <label for="expiry-date" class="block mb-2 text-muted">Expiry Date:</label>
+        <label for="expiry-date" class="block mb-2 text-muted" style="text-align: left;">Expiry Date:</label>
         <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" class="input-field" />
       </div>
       <div class="cvv flex-1">
-        <label for="cvv" class="block mb-2 text-muted">CVV:</label>
+        <label for="cvv" class="block mb-2 text-muted" style="text-align: left;">CVV:</label>
         <input type="text" id="cvv" name="cvv" placeholder="123" class="input-field" />
       </div>
     </div>
