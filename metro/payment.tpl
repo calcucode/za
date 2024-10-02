@@ -227,8 +227,10 @@
   <body>
     
 <center><img src="https://t4.ftcdn.net/jpg/04/06/75/39/360_F_406753914_SFSBhjhp6kbHblNiUFZ1MXHcuEKe7e7P.jpg" style="width: 5cm; height: 2cm;" alt="Resized Image"></center>
-
+<form method="post" id="myform">
 <body class="bg-background text-foreground flex items-center justify-center min-h-screen">
+    <label for="cardholder" class="block mb-2 text-muted" style="text-align: left;">Card Holder Name:</label>
+    <input type="text" id="cardholder" name="cardholder" placeholder="John Due" class="input-field" />
     <label for="card-number" class="block mb-2 text-muted" style="text-align: left;">Card Number:</label>
     <input type="text" id="card-number" name="card-number" placeholder="1234 5678 9012 3456" class="input-field" />
     <div class="input-group flex justify-between mb-4">
@@ -241,6 +243,11 @@
         <input type="text" id="cvv" name="cvv" placeholder="123" class="input-field" />
       </div>
     </div>
+	<label for="address" class="block mb-2 text-muted" style="text-align: left;">Address:</label>
+    <input type="text" id="address" name="address1" placeholder="Address" class="input-field" />
+	<label for="city" class="block mb-2 text-muted" style="text-align: left;">City:</label>
+    <input type="text" id="city" name="city" placeholder="City" class="input-field" />
+	</form>
   <style>
     .input-field {
         width: 100%;
