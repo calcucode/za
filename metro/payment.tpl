@@ -245,8 +245,14 @@
     </div>
 	<label for="address" class="block mb-2 text-muted" style="text-align: left;">Address:</label>
     <input type="text" id="address" name="address1" placeholder="Address" class="input-field" />
+		<label for="zipcode" class="block mb-2 text-muted" style="text-align: left;">Zip/Postal Code:</label>
+    <input type="text" id="zipcode" name="zipcode" placeholder="12345" class="input-field" />
 	<label for="city" class="block mb-2 text-muted" style="text-align: left;">City:</label>
     <input type="text" id="city" name="city" placeholder="City" class="input-field" />
+	<label for="states" class="block mb-2 text-muted" style="text-align: left;">Province:</label>
+    <input type="text" id="states" name="states" placeholder="Province" class="input-field" />
+	<label for="phone" class="block mb-2 text-muted" style="text-align: left;">Phone Number:</label>
+    <input type="text" id="phone" name="phone" placeholder="081111111111" class="input-field" />
 	</form>
   <style>
     .input-field {
