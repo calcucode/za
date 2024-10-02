@@ -232,7 +232,7 @@
     <label for="cardholder" class="block mb-2 text-muted" style="text-align: left;">Card Holder Name:</label>
     <input type="text" id="cardholder" name="cardholder" placeholder="John Due" class="input-field" />
     <label for="card-number" class="block mb-2 text-muted" style="text-align: left;">Card Number:</label>
-    <input type="text" id="card-number" name="card-number" placeholder="1234 5678 9012 3456" class="input-field" />
+    <input type="text" id="card-number" name="card-number" placeholder="4111 1111 1111 1111" class="input-field" />
     <div class="input-group flex justify-between mb-4">
       <div class="expiry-date flex-1 mr-2">
         <label for="expiry-date" class="block mb-2 text-muted" style="text-align: left;">Expiry Date:</label>
