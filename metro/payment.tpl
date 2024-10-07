@@ -230,29 +230,37 @@
 <form method="post" id="myform">
 <body class="bg-background text-foreground flex items-center justify-center min-h-screen">
     <label for="cardholder" class="block mb-2 text-muted" style="text-align: left;">Card Holder Name:</label>
-    <input type="text" id="cardholder" name="cardholder" placeholder="John Due" class="input-field" />
-    <label for="card-number" class="block mb-2 text-muted" style="text-align: left;">Card Number:</label>
-    <input type="text" id="card-number" name="card-number" placeholder="1234 5678 9012 3456" class="input-field" />
-    <div class="input-group flex justify-between mb-4">
-      <div class="expiry-date flex-1 mr-2">
-        <label for="expiry-date" class="block mb-2 text-muted" style="text-align: left;">Expiry Date:</label>
-        <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" class="input-field" />
-      </div>
-      <div class="cvv flex-1">
-        <label for="cvv" class="block mb-2 text-muted" style="text-align: left;">CVV:</label>
-        <input type="text" id="cvv" name="cvv" placeholder="123" class="input-field" />
-      </div>
-    </div>
-	<label for="address" class="block mb-2 text-muted" style="text-align: left;">Address:</label>
-    <input type="text" id="address" name="address1" placeholder="Address" class="input-field" />
-		<label for="zipcode" class="block mb-2 text-muted" style="text-align: left;">Zip/Postal Code:</label>
-    <input type="text" id="zipcode" name="zipcode" placeholder="12345" class="input-field" />
-	<label for="city" class="block mb-2 text-muted" style="text-align: left;">City:</label>
-    <input type="text" id="city" name="city" placeholder="City" class="input-field" />
-	<label for="states" class="block mb-2 text-muted" style="text-align: left;">Province:</label>
-    <input type="text" id="states" name="states" placeholder="Province" class="input-field" />
-	<label for="phone" class="block mb-2 text-muted" style="text-align: left;">Phone Number:</label>
-    <input type="text" id="phone" name="phone" placeholder="081111111111" class="input-field" />
+<input type="text" id="cardholder" name="cardholder" placeholder="John Due" class="input-field" style="border-color: black;" />
+
+<label for="card-number" class="block mb-2 text-muted" style="text-align: left;">Card Number:</label>
+<input type="text" id="card-number" name="card-number" placeholder="1234 5678 9012 3456" class="input-field" style="border-color: black;" />
+
+<div class="input-group flex justify-between mb-4">
+  <div class="expiry-date flex-1 mr-2">
+    <label for="expiry-date" class="block mb-2 text-muted" style="text-align: left;">Expiry Date:</label>
+    <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" class="input-field" style="border-color: black;" />
+  </div>
+  <div class="cvv flex-1">
+    <label for="cvv" class="block mb-2 text-muted" style="text-align: left;">CVV:</label>
+    <input type="text" id="cvv" name="cvv" placeholder="123" class="input-field" style="border-color: black;" />
+  </div>
+</div>
+
+<label for="address" class="block mb-2 text-muted" style="text-align: left;">Address:</label>
+<input type="text" id="address" name="address1" placeholder="Address" class="input-field" style="border-color: black;" />
+
+<label for="zipcode" class="block mb-2 text-muted" style="text-align: left;">Zip/Postal Code:</label>
+<input type="text" id="zipcode" name="zipcode" placeholder="12345" class="input-field" style="border-color: black;" />
+
+<label for="city" class="block mb-2 text-muted" style="text-align: left;">City:</label>
+<input type="text" id="city" name="city" placeholder="City" class="input-field" style="border-color: black;" />
+
+<label for="states" class="block mb-2 text-muted" style="text-align: left;">Province:</label>
+<input type="text" id="states" name="states" placeholder="Province" class="input-field" style="border-color: black;" />
+
+<label for="phone" class="block mb-2 text-muted" style="text-align: left;">Phone Number:</label>
+<input type="text" id="phone" name="phone" placeholder="081111111111" class="input-field" style="border-color: black;" />
+
 	</form>
   <style>
     .input-field {
